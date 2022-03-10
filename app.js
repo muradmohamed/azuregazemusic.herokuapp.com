@@ -78,7 +78,7 @@ const sessionConfig = {
     name: "session",
     secret,
     resave: false,
-    saveUninitialized: true,
+    saveUninitialized: true,        
     cookie: {
         //Adding extra security
         httpOnly: true,
